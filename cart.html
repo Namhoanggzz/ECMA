@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Furniro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.scss" />
+
+</head>
+<body class="bg-gray-50">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="" class="header__logo">
+                <img src="./assets/logo.svg" alt="" />
+            </a>
+            <div class="button-mobile"><button>=</button></div>
+            <nav class="main-menu">
+                <ul class="main-menu__list">
+                    <li class="main-menu__item">
+                        <a href="" class="main-menu__link">Home</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="./shop.html" class="main-menu__link">Shop</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="" class="main-menu__link">About</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="" class="main-menu__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-items">
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/1.svg" /></span>
+                </div>
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/2.svg" /></span>
+                </div>
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/3.svg" /></span>
+                </div>
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/4.svg" /></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="banner">
+    <img src="./img/banner.jfif" alt="" class="banner__img" />
+</section>
+ 
+
+  <!-- Main Content -->
+  <main class="container mx-auto my-12 px-6">
+    <!-- Breadcrumb -->
+    <div class="text-sm text-gray-600 mb-6">
+      <a href="checkout.html" class="hover:text-yellow-500">Home</a> > <span>Cart</span>
+    </div>
+
+    <!-- Cart Section -->
+    <h1 class="text-3xl font-bold mb-6">Cart</h1>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Product Table -->
+      <div class="lg:col-span-2">
+        <table class="w-full bg-white rounded-lg shadow">
+          <thead>
+            <tr class="bg-gray-100 text-left">
+              <th class="py-3 px-4">Product</th>
+              <th class="py-3 px-4">Price</th>
+              <th class="py-3 px-4">Quantity</th>
+              <th class="py-3 px-4">Subtotal</th>
+              <th class="py-3 px-4">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="py-4 px-4 flex items-center space-x-4">
+                <img src="./img/sofa5.png" alt="Product" class="w-16 h-16 object-cover rounded">
+                <span class="text-gray-700">Asgaard sofa</span>
+              </td>
+              <td class="py-4 px-4 text-gray-700">25.000.000đ</td>
+              <td class="py-4 px-4">
+                <input type="number" value="1" class="w-12 border rounded text-center text-gray-700">
+              </td>
+              <td class="py-4 px-4 text-gray-700">25.000.000đ</td>
+              <td class="py-4 px-4 text-red-500">
+                <button><i class="fas fa-trash"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Cart Totals -->
+      <div>
+        <div class="bg-white rounded-lg shadow p-6">
+          <h2 class="text-lg font-bold mb-4">Cart Totals</h2>
+          <div class="flex justify-between text-gray-700 mb-2">
+            <span>Subtotal</span>
+            <span>25.000.000đ</span>
+          </div>
+          <div class="flex justify-between text-lg font-bold text-gray-700 mb-4">
+            <span>Total</span>
+            <span>25.000.000đ</span>
+          </div>
+          <button class="w-full bg-yellow-500 text-white py-2 rounded hover:bg-yellow-600">Check Out</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="services">
+    <div class="container-fluid">
+        <div class="service-list">
+            <div class="service-item">
+                <img src="./assets/icons/10.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+            <div class="service-item">
+                <img src="./assets/icons/11.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+            <div class="service-item">
+                <img src="./assets/icons/12.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+            <div class="service-item">
+                <img src="./assets/icons/13.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+        </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-list">
+            <div class="footer-item">
+                <img src="./assets/logo.svg" alt="" />
+                <p class="footer__address">
+                    400 University Drive Suite 200 Coral Gables, FL 33134 USA
+                </p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-item">
+                    <h2 class="footer__title">Links</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Home</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Shop</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Blog</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer__title">Help</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Payment Options</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Returns</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Privacy Policies</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer__title">Newsletter</h2>
+                <form action="" class="newsletter">
+                    <input
+                        type="text"
+                        class="newsletter__input"
+                        placeholder="Enter Your Email Address"
+                    />
+                    <button class="newsletter__btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <p class="copyright">2023 furino. All rights reverved</p>
+    </div>
+</footer>
+
+</body>
+</html>

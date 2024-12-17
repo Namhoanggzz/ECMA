@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniro</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.scss" />
+
+</head>
+<body class="bg-gray-50">
+
+   <!-- Header -->
+ <header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="" class="header__logo">
+                <img src="./assets/logo.svg" alt="" />
+            </a>
+            <div class="button-mobile"><button>=</button></div>
+            <nav class="main-menu">
+                <ul class="main-menu__list">
+                    <li class="main-menu__item">
+                        <a href="" class="main-menu__link">Home</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="./shop.html" class="main-menu__link">Shop</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="" class="main-menu__link">About</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="" class="main-menu__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-items">
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/1.svg" /></span>
+                </div>
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/2.svg" /></span>
+                </div>
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/3.svg" /></span>
+                </div>
+                <div class="header-item-user">
+                    <span><img src="./assets/icons/4.svg" /></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- <section class="banner">
+    <img src="./img/banner.jfif" alt="" class="banner__img" />
+</section> -->
+ 
+
+  <!-- Product Details -->
+  <main class="container mx-auto px-6 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="space-y-4">
+        <img src="/img/sofa1.png" alt="Product Image" class="w-full rounded-lg shadow">
+        <div class="grid grid-cols-4 gap-4">
+          <img src="/img/sofa2png.png" alt="Thumbnail" class="w-full rounded-lg border">
+          <img src="/img/sofa3.png" alt="Thumbnail" class="w-full rounded-lg border">
+          <img src="/img/sofa4.png" alt="Thumbnail" class="w-full rounded-lg border">
+          <img src="/img/sofa5.png" alt="Thumbnail" class="w-full rounded-lg border">
+        </div>
+      </div>
+      <div>
+        <h2 class="text-2xl font-bold text-gray-800">Asgaard Sofa</h2>
+        <p class="text-yellow-500 text-lg font-semibold mt-2">25.000.000đ</p>
+        <div class="flex items-center mt-4">
+          <div class="flex space-x-1 text-yellow-500">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <span class="ml-2 text-gray-600">(5 Customer Reviews)</span>
+        </div>
+        <p class="mt-6 text-gray-600">
+          Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero...
+        </p>
+        <div class="mt-6">
+          <h4 class="font-bold text-gray-800">Size:</h4>
+          <div class="flex space-x-4 mt-2">
+            <button class="px-4 py-2 bg-gray-200 text-gray-600 rounded hover:bg-yellow-500 hover:text-white">L</button>
+            <button class="px-4 py-2 bg-gray-200 text-gray-600 rounded hover:bg-yellow-500 hover:text-white">XL</button>
+            <button class="px-4 py-2 bg-gray-200 text-gray-600 rounded hover:bg-yellow-500 hover:text-white">XS</button>
+          </div>
+          <h4 class="font-bold text-gray-800 mt-6">Color:</h4>
+          <div class="flex space-x-4 mt-2">
+            <button class="w-8 h-8 bg-black rounded-full border"></button>
+            <button class="w-8 h-8 bg-purple-500 rounded-full border"></button>
+            <button class="w-8 h-8 bg-yellow-500 rounded-full border"></button>
+          </div>
+        </div>
+        <div class="mt-8 flex items-center space-x-4">
+          <input type="number" class="w-16 text-center border rounded" value="1">
+          <button 
+    class="px-6 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600" 
+    onclick="window.location.href='./cart.html'">
+    Add to Cart
+</button>
+
+          <button class="px-6 py-2 bg-gray-200 text-gray-600 rounded hover:bg-gray-300">Compare</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <body class="bg-gray-50 text-gray-700">
+    <div class="max-w-5xl mx-auto py-10 px-5">
+      <!-- Tabs -->
+      <div class="flex justify-start space-x-8 border-b border-gray-200 mb-6">
+        <button class="text-gray-900 font-semibold border-b-2 border-black pb-2">Description</button>
+        <button class="text-gray-500 font-medium hover:text-gray-900 pb-2">Additional Information</button>
+        <button class="text-gray-500 font-medium hover:text-gray-900 pb-2">Reviews [5]</button>
+      </div>
+  
+      <!-- Description -->
+      <div>
+        <p class="mb-6">
+          Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.
+        </p>
+        <p>
+          Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage-styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine-tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
+        </p>
+      </div>
+  
+      <!-- Images Section -->
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <img src="./img/11png.png" alt="Sofa Image 1" class="w-full rounded-lg">
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg">
+          <img src="./img/12.png" alt="Sofa Image 2" class="w-full rounded-lg">
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg">
+            <img src="./img/12.png" alt="Sofa Image 2" class="w-full rounded-lg">
+          </div>
+      </div>
+    </div>
+  </body>
+  
+  <!--End .banner-->
+  <section class="services">
+    <div class="container-fluid">
+        <div class="service-list">
+            <div class="service-item">
+                <img src="./assets/icons/10.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+            <div class="service-item">
+                <img src="./assets/icons/11.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+            <div class="service-item">
+                <img src="./assets/icons/12.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+            <div class="service-item">
+                <img src="./assets/icons/13.svg" class="service__image" />
+                <div class="service-info">
+                    <h4 class="service__name">High Quality</h4>
+                    <p class="service__description">crafted from top materials</p>
+                </div>
+            </div>
+            <!--End service-item-->
+        </div>
+    </div>
+</section>
+<!--End .services-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-list">
+            <div class="footer-item">
+                <img src="./assets/logo.svg" alt="" />
+                <p class="footer__address">
+                    400 University Drive Suite 200 Coral Gables, FL 33134 USA
+                </p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-item">
+                    <h2 class="footer__title">Links</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Home</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Shop</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Blog</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h2 class="footer__title">Help</h2>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="./checkout.html" class="footer-menu-link">Payment Options</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Returns</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Privacy Policies</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer__title">Newsletter</h2>
+                <form action="" class="newsletter">
+                    <input
+                        type="text"
+                        class="newsletter__input"
+                        placeholder="Enter Your Email Address"
+                    />
+                    <button class="newsletter__btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <p class="copyright">2023 furino. All rights reverved</p>
+    </div>
+  </footer>
+
+</body>
+</html>
